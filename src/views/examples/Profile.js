@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/Ala-800x800.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -84,71 +84,44 @@ class Profile extends React.Component {
                       className="order-lg-3 text-lg-right align-self-lg-center"
                       lg="4"
                     >
-                      <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
-                          className="mr-4"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                          size="sm"
-                        >
-                          Connect
-                        </Button>
-                        <Button
-                          className="float-right"
-                          color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                          size="sm"
-                        >
-                          Message
-                        </Button>
-                      </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">6 months+</span>
+                          <span className="description">Work experience</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
-                        </div>
-                        <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading">8</span>
+                          <span className="description">Projects</span>
                         </div>
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Ala Abu Al-Rish{" "}
+                      <span className="font-weight-light">, 33</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Jordan, Amman
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Business Development 
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Al-Zaytoonah University Of Jordan
+                      Luminus Technical University College (ASAC)
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        This is Ala Abu Al-Rish, I’m 33 years old. A visionary that handles global data systems and building enterprises infrastructure. Has a total of 7+ years experience as a CTO in the IT and multimedia industry. In addition to 8+ years as a technical creative director for commercial video production. Passionately empowers organizations and individuals who have a vision in innovative ideas that help improve real life applications in the IT sector. Graduated from Alzaytoonah University as a Graphic Designer. Created many projects and in media and commercial industries that makes me a founder, co-founder. I’m taking a break now to join this journey to improve and learn the computer and web languages.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more

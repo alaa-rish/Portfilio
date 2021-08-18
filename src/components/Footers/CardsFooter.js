@@ -38,7 +38,7 @@ class CardsFooter extends React.Component {
   render() {
     return (
       <>
-        <footer className="footer has-cards">
+        {/* <footer className="footer has-cards">
           <Container className="container-lg">
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
@@ -63,11 +63,11 @@ class CardsFooter extends React.Component {
               </Col>
             </Row>
           </Container>
-          <Container>
+          <Container> */}
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                Contact Me
                 </h3>
                 <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
@@ -77,7 +77,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
-                  href="https://twitter.com/creativetim"
+                  href="https://twitter.com/Alaa_Abu_rish"
                   id="tooltip475038074"
                   target="_blank"
                 >
@@ -91,7 +91,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/keepfor/"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -119,7 +119,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/alaa-rish"
                   id="tooltip495507257"
                   target="_blank"
                 >
