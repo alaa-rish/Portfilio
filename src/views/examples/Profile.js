@@ -113,7 +113,7 @@ class Profile extends React.Component {
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      Al-Zaytoonah University Of Jordan
+                      Al-Zaytoonah University Of Jordan, 
                       Luminus Technical University College (ASAC)
                     </div>
                   </div>

@@ -38,7 +38,7 @@ class CardsFooter extends React.Component {
   render() {
     return (
       <>
-        {/* <footer className="footer has-cards">
+        <footer className="footer has-cards">
           <Container className="container-lg">
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
@@ -63,14 +63,14 @@ class CardsFooter extends React.Component {
               </Col>
             </Row>
           </Container>
-          <Container> */}
+          <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
-                Contact Me
+                  Thank you for supporting Me!
                 </h3>
                 <h4 className="mb-0 font-weight-light">
-                  Let's get in touch on any of these platforms.
+                  Let's get in touch Soon.
                 </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
@@ -104,12 +104,12 @@ class CardsFooter extends React.Component {
                 </UncontrolledTooltip>
 
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
+                Follow Me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/alaa-rish"
+                  href="https://github.com/alaa-rish/"
                   id="tooltip495507257"
                   target="_blank"
                 >
